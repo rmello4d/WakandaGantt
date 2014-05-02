@@ -1,0 +1,49 @@
+{
+    "name": "WakandaGantt",
+    "studioName": "WakandaGantt",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},       
+ 		{"id": "WakandaGantt/libs/jquery.livequery.min.js", "path": "WIDGETS_CUSTOM"},       
+        {"id": "WakandaGantt/libs/jquery.timers.js", "path": "WIDGETS_CUSTOM"},  
+        {"id": "WakandaGantt/libs/platform.js", "path": "WIDGETS_CUSTOM"},  
+        {"id": "WakandaGantt/libs/date.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/i18nJs.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/dateField/jquery.dateField.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/JST/jquery.JST.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/jquery.svg.min.js", "path": "WIDGETS_CUSTOM"},
+        {"id": "WakandaGantt/libs/jquery.svgdom.js", "runtimeOnly": true, "path": "WIDGETS_CUSTOM"},
+        
+        {"id": "WakandaGantt/libs/ganttUtilities.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/ganttTask.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/ganttDrawerSVG.js", "path": "WIDGETS_CUSTOM"},                
+        {"id": "WakandaGantt/libs/ganttGridEditor.js", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/ganttMaster.js", "path": "WIDGETS_CUSTOM"},  
+                    
+        {"id": "WakandaGantt/css/platform.css", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/libs/dateField/jquery.dateField.css", "path": "WIDGETS_CUSTOM"}, 
+        {"id": "WakandaGantt/css/gantt.css", "path": "WIDGETS_CUSTOM"},         
+        {"id": "WakandaGantt/libs/jquery.svg.css", "path": "WIDGETS_CUSTOM"}, 
+         
+        {"id": "WakandaGantt/templates.js",  "path": "WIDGETS_CUSTOM"},
+        {"id": "WakandaGantt/widget.js",  "path": "WIDGETS_CUSTOM"},
+        {"id": "WakandaGantt/css/widget.css",  "path": "WIDGETS_CUSTOM"},
+        {"id": "WakandaGantt/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
+
