@@ -1,35 +1,32 @@
 
 About WakandaGantt
 
-<img src="https://rbicchierai.files.wordpress.com/2014/04/image_thumb6.png?w=596" alt="Twproject jQuery Gantt" border="0" />
-
-<img src="https://raw.githubusercontent.com/rmello4d/WakandaGantt/master/WakandaGantt.png" alt="WakandaGantt" border="0" />
-
 
 ## Custom Widget for [Wakanda](http://wakanda.org)
-The __WakandaGantt__ widget is an example of how to record, save and play audio files in wakanda 
+The __WakandaGantt__  makes your gantt projects easy to create and manage. A full feature gantt and tasks editor, this widget is based on the jQuery Gantt editor -written by Roberto Bicchierai and Silvia Chelazzi (https://github.com/robicch/jQueryGantt). 
+
+Fully compatible with Wakanda >8, the __WakandaGantt__ adds all the dependencies needed to have a draggable and bindable widget directly in Wakanda. 
+
+Here some screenshots:
+
+Original product
+<img src="https://rbicchierai.files.wordpress.com/2014/04/image_thumb6.png?w=596" alt="Twproject jQuery Gantt" border="0" />
+Drag and drop to the Wakanda Studio
+<img src="https://raw.githubusercontent.com/rmello4d/WakandaGantt/master/WakandaGantt.png" alt="WakandaGantt" border="0" />
+Property panel at the Wakanda Studio
+
 
 ### Properties
 This widget __WakandaGantt__ has the following properties: 
 
-* __value__: The data binding value of the widget
-
-### Goals
-The __WakandaGantt__ is an example of how to use HTML5 to record audio files in Wakanda. 
-
-This is a simple example that include also a graphical representation of the sound while recording.  
+* __gantDataClass__: The dataclass used for the data
+* __projectAttribute__: The string attribute from the __gantDataClass__  used to store the data
 
 
 ### Events (widget.js)
 
 ```
-    Event.create('play');
-    Event.create('stopPlaying');
-    Event.create('record');
-    Event.create('stopRecording');
-    Event.create('capture');
-    Event.create('stopCapture');
-
+    saveProject
 
 ```
 
@@ -37,38 +34,13 @@ This is a simple example that include also a graphical representation of the sou
 
 Model
 ```
-1. Create a datasource  D
-2. Add attribute string S1
-3. Add atribute string  S2
-4. save your model. 
+You need an attribute string to save the data. 
+The widget comes with a save button that will save the data to your wakanda database. 
 
 ```
-
-Wakanda Widgets (optional)
-```
-1. Drag a wakanda grid to your page and add the datasource D on it 
-
-```
-
-
-Custom Widget
-```
-1. Drag the widget to your Wakanda page. 
-2. A black box should be available with a few buttons 
-3. Drop the second datasource string attribute S2 inside the widget or change the 
-       property's panel Datasource value (this will store the music)
-4. save your page
-5. run your page 
-6. Add a record to your grid 
-7. Select the grid record recently created
-8. click record and save or play your file after
-```
-
 
 ### CSS
-The __WakandaGantt__ CSS will define the background color of the widget.  
-You can adjust its color by changing directly in the Studio OR by changing the /css/widget.css file.  
-
+The __WakandaGantt__ CSS is very simple, the widget basically uses the CSS already provided from the original project (more information down below)
 
 ### More Information
 For more information on how to install a custom widget, refer to [Installing a Custom Widget](http://doc.wakanda.org/WakandaStudio0/help/Title/en/page3869.html#1027761).
