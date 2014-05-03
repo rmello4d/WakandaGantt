@@ -2,7 +2,7 @@
 About WakandaGantt
 
 
-<img src="https://github.com/rmello4d/WakandaGantt/blob/master/WakandaGantt.png" alt="WakandaGantt" border="0" />
+<img src="https://raw.githubusercontent.com/rmello4d/WakandaGantt/master/WakandaGantt.png" alt="WakandaGantt" border="0" />
 
 
 The WakandaGantt is based on thejQuery Gantt editor has been written by Roberto Bicchierai and Silvia Chelazzi
