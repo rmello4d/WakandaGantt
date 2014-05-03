@@ -10,10 +10,15 @@ Fully compatible with Wakanda >8, the __WakandaGantt__ adds all the dependencies
 Here some screenshots:
 
 Original product
+
+
 <img src="https://rbicchierai.files.wordpress.com/2014/04/image_thumb6.png?w=596" alt="Twproject jQuery Gantt" border="0" />
 
 Drag and drop to the Wakanda Studio
+
+
 <img src="https://raw.githubusercontent.com/rmello4d/WakandaGantt/master/WakandaGantt.png" alt="WakandaGantt" border="0" />
+
 
 Property panel at the Wakanda Studio
 
