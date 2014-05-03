@@ -23,6 +23,10 @@ Drag and drop to the Wakanda Studio
 Property panel at the Wakanda Studio
 
 
+<img src="https://raw.githubusercontent.com/rmello4d/WakandaGantt/master/properties.png" alt="WakandaGantt" border="0" />
+
+
+
 ### Properties
 This widget __WakandaGantt__ has the following properties: 
 
