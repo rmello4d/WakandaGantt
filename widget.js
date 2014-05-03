@@ -99,12 +99,15 @@ WAF.define('WakandaGantt', ['waf-core/widget'], function(widget) {
         //updating the data if user clicks save
       	updateDB: function(currentEntity) {					
 			currentEntity[this.projectDataAttribute].setValue(JSON.stringify(this.ge.saveProject()));
+			var self = this;
 			currentEntity.save({
 				onSuccess: function() {
 					console.log("Saved successfully done!");
+					self.fire('saveProject', {status: "saved"});
 				},
 				onError: function() {
 					console.log("Problems with saving the gantt data");
+					self.fire('saveProject', {status: "NOT saved"});
 				}
 			});	
 		},
